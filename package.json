@@ -1,0 +1,24 @@
+{
+  "name": "k",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joaoh9/telegram-crypto-portifolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joaoh9/telegram-crypto-portifolio/issues"
+  },
+  "homepage": "https://github.com/joaoh9/telegram-crypto-portifolio#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "mongoose": "^5.9.27",
+    "node-telegram-bot-api": "^0.50.0"
+  }
+}
