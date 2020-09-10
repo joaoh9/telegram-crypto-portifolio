@@ -1,30 +1,10 @@
 const bittrex = {
-  BTC: 0.00588349,
+  BTC: 0,
   ETH: 0,
   DAI: 0,
   LINK: 0,
-  ADA: 10,
+  ADA: 0,
   LEND: 0,
-  MIOTA: 0,
-  XMR: 0,
-  DCR: 2,
-  VET: 0,
-  XLM: 0,
-  TRX: 0,
-  CLN: 0,
-  LPT: 0,
-  ARK: 9.61283639,
-  LSK: 0,
-  XPAT: 0,
-}
-
-const binance = {
-  BTC: 0,
-  ETH: 0.65382639,
-  DAI: 0,
-  LINK: 11.988,
-  ADA: 604.395,
-  LEND: 251.567,
   MIOTA: 0,
   XMR: 0,
   DCR: 0,
@@ -33,6 +13,13 @@ const binance = {
   TRX: 0,
   CLN: 0,
   LPT: 0,
+  ARK: 0,
+  LSK: 0,
+  XPAT: 0,
+}
+
+const binance = {
+  BTC: 0,
   ARK: 0,
   LSK: 0,
   XPAT: 0,
@@ -40,19 +27,6 @@ const binance = {
 
 const bitfinex = {
   BTC: 0,
-  ETH: 0.18074809,
-  DAI: 0,
-  LINK: 0,
-  ADA: 0,
-  LEND: 0,
-  MIOTA: 260.7108478,
-  XMR: 0,
-  DCR: 0,
-  VET: 0,
-  XLM: 0,
-  TRX: 0,
-  CLN: 0,
-  LPT: 0,
   ARK: 0,
   LSK: 0,
   XPAT: 0,
@@ -60,63 +34,18 @@ const bitfinex = {
 
 const metamask = {
   BTC: 0,
-  ETH: 1.4498,
-  DAI: 149.26354,
-  LINK: 0,
-  ADA: 0,
-  LEND: 0,
-  MIOTA: 0,
-  XMR: 0,
-  DCR: 0,
-  VET: 0,
-  XLM: 0,
   TRX: 0,
-  CLN: 800.9954,
-  LPT: 2.266491769,
-  ARK: 0,
-  LSK: 0,
-  XPAT: 4124.74
 }
 
 const exodus = {
-  BTC: 0.09877673,
-  ETH: 0,
   DAI: 0,
   LINK: 0,
   ADA: 0,
-  LEND: 0,
-  MIOTA: 0,
-  XMR: 0.811088,
-  DCR: 0,
-  VET: 1398.5,
-  XLM: 222.87773,
-  TRX: 928.07975,
-  CLN: 0,
-  LPT: 0,
-  ARK: 0,
-  LSK: 1.90034458,
   XPAT: 0,
 };
 
 
 const total = {
-  BTC: 0.00588349 + 0 + 0 + 0 + 0.09877673,
-  // ETH: 0 + 0.65382639 + 0.18074809 + 1.4498 + 0,
-  // DAI: 0 + 0 + 0 + 149.26354 + 0,
-  // LINK: 0 + 11.988 + 0 + 0 + 0,
-  // ADA: 10 + 604.395 + 0 + 0 + 0,
-  // LEND: 0 + 251.567 + 0 + 0 + 0,
-  // MIOTA: 0 + 0 + 260.7108478 + 0 + 0,
-  // XMR: 0 + 0 + 0 + 0 + 0.811088,
-  // DCR: 2 + 0 + 0 + 0 + 0,
-  // VET: 0 + 0 + 0 + 0 + 1398.5,
-  // XLM: 0 + 0 + 0 + 0 + 222.87773,
-  // TRX: 0 + 0 + 0 + 0 + 928.07975,
-  // CLN: 0 + 0 + 0 + 800.9954 + 0,
-  // LPT: 0 + 0 + 0 + 2.266491769 + 0,
-  // ARK: 9.61283639 + 0 + 0 + 0 + 0,
-  // LSK: 0 + 0 + 0 + 0 + 1.90034458,
-  // XPAT: 0 + 0 + 0 + 4124.74 + 0,
 }
 
 module.exports = {
